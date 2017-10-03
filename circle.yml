@@ -8,7 +8,9 @@ deployment:
       - cd Webapplication
       - ls -ltr
       - pip install flask
-      - python Webapplication/webapp.py
+      - nohup python Webapplication/webapp.py
+      - curl -X GET http://127.0.0.1:5000/ -H 'cache-control: no-cache'
+      - pkill webapp.py
 #to skip the test cases
 test:
   override:
