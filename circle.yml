@@ -4,6 +4,7 @@ deployment:
     commands:
       - ls -ltr
       - cd Webapplication
+      - ls -ltr
       - python webapp.py
 #to skip the test cases
 test:
