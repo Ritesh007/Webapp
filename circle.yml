@@ -1,0 +1,10 @@
+deployment:
+  dockerhub:
+    branch: master
+    commands:
+      - cd Webapplication
+      - python webapp.py
+#to skip the test cases
+test:
+  override:
+    - echo "done"
