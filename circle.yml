@@ -1,6 +1,6 @@
 deployment:
   dockerhub:
-    branch: master
+    branch: feature
     commands:
       - cd Webapplication
       - python webapp.py
