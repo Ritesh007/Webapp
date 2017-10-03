@@ -2,6 +2,7 @@ deployment:
   dockerhub:
     branch: feature
     commands:
+      - ls -ltr
       - cd Webapplication
       - python webapp.py
 #to skip the test cases
