@@ -7,7 +7,7 @@ deployment:
       - ls -ltr
       - cd Webapplication
       - ls -ltr
-      - python webapp.py
+      - python Webapplication/webapp.py
 #to skip the test cases
 test:
   override:
