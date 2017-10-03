@@ -7,6 +7,7 @@ deployment:
       - ls -ltr
       - cd Webapplication
       - ls -ltr
+      - pip install flask
       - python Webapplication/webapp.py
 #to skip the test cases
 test:
