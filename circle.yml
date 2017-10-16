@@ -1,6 +1,8 @@
 deployment:
   dockerhub:
-    branch: feature
+    branch:
+      - master
+      - feature
     commands:
       - ls -ltr
       - cd Webapplication
