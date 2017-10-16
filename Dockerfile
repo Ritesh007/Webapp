@@ -2,7 +2,7 @@ FROM centos:centos6
 
 MAINTAINER ritesh@kuchukulla.com
 
-RUN yum install -y flask
+RUN pip install flask
 
 COPY . /src
 
