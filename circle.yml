@@ -1,9 +1,16 @@
 deployment:
   dockerhub:
-    branch: master
+    branch: feature
     commands:
+      - ls -ltr
       - cd Webapplication
-      - python webapp.py
+      - ls -ltr
+      - cd Webapplication
+      - ls -ltr
+      - pip install flask
+      - python Webapplication/webapp.py &
+ #     - curl -X GET http://127.0.0.1:5000/
+  #    - pkill webapp.py
 #to skip the test cases
 test:
   override:

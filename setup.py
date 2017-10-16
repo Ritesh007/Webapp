@@ -8,7 +8,7 @@ setup(
     name="Sample Flask Webapp",
     version='1.0',
     packages = ['Webapplication','Webapplication/Test','Webapplication/utilities'],
-    data_files = ['circle.yml','README.md','Webapplication/static/css/*.css'],
+    data_files = ['circle.yml','README.md'],
 
     #metadata
     author='Ritesh Kumar',
