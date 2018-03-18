@@ -70,18 +70,18 @@ body {
    =================== */
 
 .header-container {
-    border-bottom: 20px solid #5DD610;
+    border-bottom: 2px solid #071101;
 }
 
 .footer-container,
 .main aside {
-    border-top: 20px solid #5DD610;
+    border-top: 20px solid #071101;
 }
 
 .header-container,
 .footer-container,
 .main aside {
-    background: #5DD610;
+    background: #071101;
 }
 
 .title {
@@ -101,7 +101,7 @@ nav ul {
 nav a {
     display: block;
     margin-bottom: 10px;
-    padding: 15px 0;
+    padding: 0px 0;
 
     text-align: center;
     text-decoration: none;
@@ -180,9 +180,9 @@ nav a:hover {
 
     nav a {
         float: left;
-        width: 27%;
-        margin: 0 1.7%;
-        padding: 25px 2%;
+        width: 28%;
+        margin: auto;
+        padding: 25px 5%;
         margin-bottom: 0;
     }
 
@@ -230,7 +230,7 @@ nav a:hover {
 
     nav {
         float: right;
-        width: 38%;
+        width: auto;
     }
 
 /* ============
@@ -239,7 +239,7 @@ nav a:hover {
 
     .main article {
         float: left;
-        width: 57%;
+        width: 50%;
     }
 
     .main aside {

@@ -8,4 +8,4 @@ COPY . /src
 
 EXPOSE 8080
 
-CMD cd /src && python ./Webapplication/Webapplication/webapp.py
+CMD cd /src && python ./Webapplication/webapp.py
